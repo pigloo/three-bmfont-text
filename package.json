@@ -1,6 +1,6 @@
 {
   "name": "@stur86/three-bmfont-text",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "renders BMFont files in ThreeJS with word-wrapping (fork: uses internal THREE import)",
   "main": "index.js",
   "license": "MIT",
