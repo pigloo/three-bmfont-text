@@ -8,7 +8,7 @@
   })
  */
 
-global.THREE = require('three')
+var THREE = require('three')
 var createOrbitViewer = require('three-orbit-viewer')(THREE)
 var shuffle = require('array-shuffle')
 var quotes = shuffle(require('sun-tzu-quotes/quotes.json').join(' ').split('.'))

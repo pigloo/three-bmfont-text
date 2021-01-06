@@ -7,7 +7,7 @@
   crisp rendering at sharp angles.
  */
 
-global.THREE = require('three')
+var THREE = require('three')
 var createOrbitViewer = require('three-orbit-viewer')(THREE)
 var createText = require('../')
 var SDFShader = require('../shaders/sdf')

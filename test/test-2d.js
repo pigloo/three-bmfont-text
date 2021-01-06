@@ -8,7 +8,7 @@
   })
  */
 
-global.THREE = require('three')
+var THREE = require('three')
 var createOrbitViewer = require('three-orbit-viewer')(THREE)
 var createText = require('../')
 

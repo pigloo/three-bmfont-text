@@ -1,5 +1,5 @@
 var loadFont = require('load-bmfont')
-global.THREE = require('three')
+var THREE = require('three')
 
 // A utility to load a font, then a texture
 module.exports = function (opt, cb) {

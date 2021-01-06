@@ -1,4 +1,5 @@
 var assign = require('object-assign')
+var THREE = require('three')
 
 module.exports = function createMultipageShader (opt) {
   opt = opt || {}
