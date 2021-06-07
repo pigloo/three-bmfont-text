@@ -9,7 +9,6 @@ globalThis.THREE = THREE;
 
 var quote = require('sun-tzu-quotes')
 var createOrbitViewer = require('three-orbit-viewer')(THREE)
-var createBackground = require('three-vignette-background')
 var createText = require('../')
 var glslify = require('glslify')
 
@@ -20,14 +19,11 @@ require('./load')({
 
 function start (font, texture) {
   var app = createOrbitViewer({
-    clearColor: 'rgb(40, 40, 40)',
+    clearColor: 'rgb(220, 220, 220)',
     clearAlpha: 1.0,
     fov: 55,
     position: new THREE.Vector3(1, 1, -2)
   })
-
-  var bg = createBackground()
-  app.scene.add(bg)
 
   var geom = createText({
     font: font,
@@ -75,12 +71,6 @@ function start (font, texture) {
 
     var width = window.innerWidth
     var height = window.innerHeight
-    bg.style({
-      aspect: width / height,
-      aspectCorrection: false,
-      scale: 2.5,
-      grainScale: 0
-    })
   })
 
   function next () {

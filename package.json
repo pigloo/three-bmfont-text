@@ -23,7 +23,7 @@
     "object-assign": "^4.0.1",
     "quad-indices": "^2.0.1",
     "three-buffer-vertex-data": "^1.0.0",
-    "three": "^0.118.3"
+    "three": "^0.129.0"
   },
   "devDependencies": {
     "bluebird": "^3.7.2",
@@ -36,7 +36,6 @@
     "standard": "^14.3.4",
     "sun-tzu-quotes": "^1.0.0",
     "three-orbit-viewer": "^69.2.9",
-    "three-vignette-background": "^1.0.2",
     "uglify-js": "^3.10.0"
   },
   "scripts": {

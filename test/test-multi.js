@@ -89,6 +89,7 @@ function start (font, textures) {
 
 function loadTexture (path) {
   return new Promise(function (resolve, reject) {
-    THREE.ImageUtils.loadTexture(path, undefined, resolve, reject)
-  })
+    const loader = new THREE.TextureLoader();
+    loader.load(path, resolve, reject);
+  });
 }
