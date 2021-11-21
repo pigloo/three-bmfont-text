@@ -39,9 +39,6 @@ module.exports = function createMSDFShader(opt) {
         ].join("\n"),
       fragmentShader: [
         "#version 300 es",
-        "#ifdef GL_OES_standard_derivatives",
-        "#extension GL_OES_standard_derivatives : enable",
-        "#endif",
         "precision " + precision + " float;",
         "uniform float opacity;",
         "uniform vec3 color;",
