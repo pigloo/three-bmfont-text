@@ -1,3 +1,5 @@
+************ THIS VERSION WORKS WITH PARCEL BUNDLER AND WEBGL2 ************
+
 # three-bmfont-text
 
 [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
